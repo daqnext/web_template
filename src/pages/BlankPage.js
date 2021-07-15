@@ -1,8 +1,8 @@
 import React from "react";
-import DashboardLayout from '../../layout/DashboardLayout';
+import DashboardLayout from '../layout/DashboardLayout';
  
 
-class IndexPage extends React.Component {
+class BlankPage extends React.Component {
     constructor(props) {
       super(props);
 
@@ -13,12 +13,12 @@ class IndexPage extends React.Component {
     }
 
     render() {return (<DashboardLayout>
-                        <div>this is document index page</div>
+                         <div> Please go to document to check all tutorial </div>
                       </DashboardLayout>);         
         }
 }
 
-export default IndexPage;
+export default BlankPage;
 
 
  
