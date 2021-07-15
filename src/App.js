@@ -7,16 +7,19 @@ import NotifyPage from './pages/components/NotifyPage';
 import BlankPage from './pages/BlankPage';
 import PageLoaderPage from './pages/components/PageLoaderPage';
 import IconPage from './pages/document/IconPage';
+import FullDocsPage from './pages/document/FullDocsPage';
 
 function App() {
 
     let router_map = {
          "/document/showcase":ShowcasePage,
          "/document/icon":IconPage,
+         '/document/fulldocs':FullDocsPage,
          "/demopage/signin":SignInPage,
          "/demopage/signup":SignUpPage,
          '/components/notify':NotifyPage,
-         '/components/pageloader':PageLoaderPage
+         '/components/pageloader':PageLoaderPage,
+          
     };
      
     for (const urlkey in router_map) {
