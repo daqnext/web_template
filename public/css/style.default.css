@@ -15294,9 +15294,22 @@ STYLE SWITCHER FOR DEMO
   color: #495057;
 }
 
+
+/*
+customize
+*/
 .header .navbar .lead{
   display: none;
   }
+
 .navlogo{
   height: 40px;
+}
+
+@media (max-width: 1199.98px) {
+.header .navbar .navlogo{
+position: absolute;
+left: 60px;
+}
+
 }
