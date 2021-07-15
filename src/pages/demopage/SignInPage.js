@@ -26,15 +26,15 @@ class SignInPage extends React.Component {
                                     <form id="loginForm" action="index.html">
                                     <div className="form-floating mb-3">
                                         <input className="form-control" id="floatingInput" type="email" placeholder="name@example.com"/>
-                                        <label for="floatingInput">Email address</label>
+                                        <label htmlFor="floatingInput">Email address</label>
                                     </div>
                                     <div className="form-floating mb-3">
                                         <input className="form-control" id="floatingPassword" type="password" placeholder="Password"/>
-                                        <label for="floatingPassword">Password</label>
+                                        <label htmlFor="floatingPassword">Password</label>
                                     </div>
                                     <div className="form-check mb-3">
                                         <input className="form-check-input" type="checkbox" name="remember" id="remember"/>
-                                        <label className="form-check-label" for="remember">Remember me</label>
+                                        <label className="form-check-label" htmlFor="remember">Remember me</label>
                                     </div>
                                     <button className="btn btn-primary btn-lg" type="submit">Submit</button>
                                     </form>

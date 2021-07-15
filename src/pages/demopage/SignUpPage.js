@@ -26,19 +26,19 @@ class SignUpPage extends React.Component {
                                         <form action="index.html">
                                         <div className="form-floating mb-3">
                                             <input className="form-control" id="username" type="email" placeholder="name@example.com"/>
-                                            <label for="username">Username</label>
+                                            <label htmlFor="username">Username</label>
                                         </div>
                                         <div className="form-floating mb-3">
                                             <input className="form-control" id="floatingInput" type="email" placeholder="name@example.com"/>
-                                            <label for="floatingInput">Email address</label>
+                                            <label htmlFor="floatingInput">Email address</label>
                                         </div>
                                         <div className="form-floating mb-3">
                                             <input className="form-control" id="floatingPassword" type="password" placeholder="Password"/>
-                                            <label for="floatingPassword">Password</label>
+                                            <label htmlFor="floatingPassword">Password</label>
                                         </div>
                                         <div className="form-check mb-3">
                                             <input className="form-check-input" type="checkbox" name="agree" id="agree"/>
-                                            <label className="form-check-label" for="agree">I agree with the <a href="#">Terms & Conditions</a>.</label>
+                                            <label className="form-check-label" htmlFor="agree">I agree with the <a href="#">Terms & Conditions</a>.</label>
                                         </div>
                                         <div className="form-group">
                                             <button className="btn btn-primary" id="regidter" type="submit" name="registerSubmit">Sign Up</button>
